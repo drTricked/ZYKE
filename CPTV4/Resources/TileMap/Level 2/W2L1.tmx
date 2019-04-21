@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="135" height="18" tilewidth="32" tileheight="32" backgroundcolor="#d3d3d3" nextobjectid="11">
+ <properties>
+  <property name="Background" value="grassy_mountains.png"/>
+  <property name="Test" type="int" value="12"/>
+ </properties>
+ <tileset firstgid="1" source="Tiles_64x64.tsx"/>
+ <tileset firstgid="257" source="lvl1Star.tsx"/>
+ <tileset firstgid="267" source="CheckPoints.tsx"/>
+ <layer name="Background" width="135" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XDQqDMAyFe+31Cm67wH5uMs+2jCGOENPEtVjN++BB1Vpj8jA2peMykM6kC+m6cSzgi1YTT72sc5fm3Uh30oP0dNwHT83UzoVWk1K9SnOlWD1rWmKxrhfBQ97ctsiJdc21PmhBT7H0QoucHDHPmY0zOwdiEsEDNfrH3vryv/FG8MWHGt/6vfWLtfGiZwAOPAEk4AkgEc0XpzS/8+9Yuj4h5ehFGpVjC/yeaZwV8WfwveO4cM2zx8R+NC6oOdCAP4AG+gYoof3f9CAAAOiFN503Bm34JQAA
+  </data>
+ </layer>
+ <layer name="CheckPoints" width="135" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAHgyHMKZxfglAAA=
+  </data>
+ </layer>
+ <layer name="Enemies" width="135" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQ0AMAgDQVKy/8JsgNIgFOVuAnf+CAAAJuTZXgDAi/wHANDRCgDADzQPwJ0CbCiV6PglAAA=
+  </data>
+ </layer>
+ <layer name="Collectibles" width="135" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W3Q7AEAxG52bv/8i7EJkIVrR+lnOSxS6qpf2U6wIAAADn/Dc6f8QH2LKqPjO1UYuFPst85aY1dzl76fxgVxq1QA8yrPNk3R+0faMbT5wDa31Y+p5Vy511o9n/S3fvaUj3HPevlhydkBPJGU/3Unt/SeL8CeseafU26l2HxG71WmN6zq5m7Ny/pu9d9HEirdrQrOeoLiX3eTy2cKOlbjiHAKBFek/QXyCANgAAXh5Z6rhF+CUAAA==
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="135" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XTU7DMBCFnULZt2HDEomcBIkTsCwcBjgBcCEoayTYcgOqcAMkbNWjvo5iZ9zYOK38pCfnZ0Icz9fxUCulauuiIqPGulaFjaJtFTaKXCpsFLl0CGxMtY9zT+IAta9sIA/v2ucd1yWqmFMwVsHx1POesTE+ZjbMWrVqs14uHlAhnJgc3Wnfaz9Yn8I93yiViW8898fGA4rYeAbnUmuNOoNjFw8u+eJNzlbaj9pPav3dxIjRomeUiLjwseF6zig3N2NhwzBxYc35iCWq58TF0tqwgYwMFb2jUdtshDLi039wMwY2kIuUfJg6sgD/Wt/YczPeDvj7xIRrnxrCRo4asku/8SOIkX5LFxep60cKUZ0wdSgmG6H9TUyFsjHRvmbnqBM7XmpfwXXOCvUWLi72iQ/cP3Cf4j1MCBtSJlKyw9n4Vut8TNQmfxPwF4uZQSyer2wc3cNzut8IXcFcyPx/z5aNMYyqOo6xr1jCfKl34T1Mo/rfJcl1V02O9c1o+p65WrMxt57t4BftV9Wfa2lcbnflyVyjnoT3L9jHxOphpCI+31T8dSAmauYQNj60P+2x710UN2S+IevQF+tjNed+H6Kh+fetAeaYs0HPSfhoVD8bMec9JFbKatceMzZJ18D1O/GtAe4jxATVEawHfd61rvmeC6kzMWqSy0cjNvXuKdaA7x/Ue9Ao3VdS5CSFU+3NoZbkMfdc/wArCEc4+CUAAA==
+  </data>
+ </layer>
+</map>

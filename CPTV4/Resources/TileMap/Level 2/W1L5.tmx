@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.12.07" orientation="orthogonal" renderorder="right-down" width="200" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="Tiles_64x64.tsx"/>
+ <tileset firstgid="257" source="lvl1Star.tsx"/>
+ <layer name="Background" width="200" height="18">
+  <properties>
+   <property name="h" value="jk"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3VSQqAMBAEQD8v+GxPIkhUjMu0UAVzziR0k2EAAAAAAAAAAACgx7SZNGNjKqXswT3b3PdMtVY3qnOZske1hHz0eKIXX9x9L/tHU3Hmm/tQJ70nFVnUDxZJXWhJzmHC+/Ce9L9jz1kXqvdj9ef3v9KBGRFtfPFAOAAA
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="200" height="18">
+  <properties>
+   <property name="a" value="kl;"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2YXU7DMAzHwwS7B6gX4IEjlSts1xvwChK8jxtwBxJp0SzPTpw1H+7kn2StdZMldf2P0zpnGAbFbvQEDEMxpg/D4Omhj2OHMQyjBb3rx4O3+85jauQPmSGjd/701seXt8fOY2rk051j8SRoz+npmLh2i/TOn9b6aKF3Lh+05gk1r5DXv96ehf+R0lOp1npS4/mP3HO01scSvXP5zuVDrzyZgUFK50uRqhOcnkq11pMa6/3IPYdUH5SGpb4cpXnF5UOvPDl4e3OXsSudL4XmWiBl7TUDItUHpWGpLwfOifi9S8u6+Aos8O3tx13GrsZ8tdzzEnI5IFlXtbynpvSxPVlrRuQEzvmUfwfMoClZ72utq63Y3p2PU8/85WS3SNwj7ZE/xOPd2wfymT7SXFMz1kB45hvGWuuDGxebpC93jesb90h71B5qAfqiZqix1gJVLzfMMTzH8cR+Cb3qg2Q+0ryLz35iDK+jtYFjUONOTL850y7Xn7tfqeH/WgtUDZyYY3iOcwH6qfsf+Z099Txm0CZY3EOkch/7qT6aiNrI5Szlx2tnDbTFJwW13kn1MaFz5/j8GPkNDs9nJq7Fecc9RMnaSPXRQtRGTsOwDfbXRlN8clxbP2C8oZ/bX4z8Bpeq75TeJfUhVWe0PH9YN6CGuTUxtsH+nOVioTU+Eq7VB4y3Q7/a7n+pPqj6kKszAeq75xJfYCaM85fkqMQPtVUSC6rfWljy/jGhc+d03n+JPrh3DGz/LSctdUA4AAA=
+  </data>
+ </layer>
+ <layer name="Collectibles" width="200" height="18">
+  <properties>
+   <property name="x" value="jk"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2Y4Q7DIAiE2/d/6f1YlhiGmCjogfclTazLkEOQts9DCCEkO+/7vapSXR+J5Zc/VfMoUle22Hn5KXVn0T9DNZ1RGjS7leKm0dPVqw+EGOw6D7Oy6n+vDnrjHTGbWWPnPiLViIcPlg0UnRrWGe5lSxufxtqT6HyYsYMUuwhQdXrVB2odtKD6NQI1dyTSx9n+jK4zE1bPlveZY4/mv+dzh7cN5PV20ssZtFzywtKrjdt7+V85L8enQPAhC4zTP9Z3rpULidG5dxOjd+Tb4jEisn9o65zYA21t5gNBAqG/ZOh1hJyENUEIBlqPWpkjpBLy3Wx1rv3tpu+shBBSiQ9eP4lmQDgAAA==
+  </data>
+ </layer>
+ <layer name="Enemies" width="200" height="18">
+  <properties>
+   <property name="d" value="dfg"/>
+   <property name="l" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAADwZkvEChtAOAAA
+  </data>
+ </layer>
+ <layer name="CheckPoints" width="200" height="18">
+  <properties>
+   <property name="g" value="jl"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAADwZkvEChtAOAAA
+  </data>
+ </layer>
+</map>

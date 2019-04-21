@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.12.07" orientation="orthogonal" renderorder="right-down" width="40" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <properties>
+  <property name="Map" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" source="TileSetFinal.tsx"/>
+ <layer name="Background Layer" width="40" height="18">
+  <properties>
+   <property name="Background" value="bg"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6QG2gHYAFDEY3DRRQxiM3Gk6YQGWgHTAKqAIojUfkfAPLJ7jMRBbHl99oBQQHwE5SAP8A2Uts+UZP9wnjEceF6ek+ITziuPBIcB8AnFEDzA==
+  </data>
+ </layer>
+ <layer name="Collision Layer" width="40" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztk0sKgDAMRGcpYv0s1Pvf1BYTDLW1KmoKduCBdlEfkwiUlPwrs2XUlvDylpO7dyKu3q/Z02BpA+c5zM651ZaG3nNx6gnnZrD5aYT3jnvpsDpJvvSL7RNHy0/OrKJn31PONOUnd1HuxF38bxryPOoSnl/s/wh1/hQpxzPzfdOPHblnYN+7tp8EgbPiByz4Agx5
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="Sound Clips/|Sound Clips/" kind="src" path="Resources"/>
+	<classpathentry kind="src" path="High Score"/>
+	<classpathentry kind="lib" path="slick/lib/jogg-0.0.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV11/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="slick/lib/jorbis-0.0.15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV11/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="slick/lib/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV4/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="slick/lib/lwjgl_util.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV4/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="slick/lib/natives-windows.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV4/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="slick/lib/slick.jar" sourcepath="slick">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="CPTV4/slick"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.12.07" orientation="orthogonal" renderorder="right-down" width="120" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="Tiles_64x64.tsx"/>
+ <tileset firstgid="257" source="lvl1Star.tsx"/>
+ <layer name="CollisionLayer" width="120" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3RMQ0AMAzAsIIpf4wlsHNXZEtBkBkAAAAAAPhvH9Hhb5u/bf62+dvmb9sBS1EeasAhAAA=
+  </data>
+ </layer>
+ <layer name="Collectibles" width="120" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3BMQEAAADCoPVPbQwfoAAAAAAAAAAAeBqUcDdbwCEAAA==
+  </data>
+ </layer>
+</map>

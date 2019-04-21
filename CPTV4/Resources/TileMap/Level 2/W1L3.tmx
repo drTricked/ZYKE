@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="2017.12.07" orientation="orthogonal" renderorder="right-down" width="166" height="18" tilewidth="32" tileheight="32" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" source="Tiles_64x64.tsx"/>
+ <tileset firstgid="257" source="CheckPoints.tsx"/>
+ <tileset firstgid="260" source="lvl1Star.tsx"/>
+ <layer name="Background" width="166" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3VRw7CMBBG4dyfuqd3tnSOx3+AIE0mLti8T3q7xLFGVtw0AHIZqKEaqXGA50J8yyv2+iU5qKM6qbPxHcv8POt6zNRcLdQywHN9v9XnbIXY4zelnfmHeqqXehvfsczPs25ps2sT82y1sc4s9b5qwuy6+8eZxbiLS/on5tzrTu3VRm3VRE0T7+FXdbmLa7xPcu71pu7qoq5qpdaJ91CDks4bAAAAAAAAAAAAAJ8PLkD3PrAuAAA=
+  </data>
+ </layer>
+ <layer name="CollisionLayer" width="166" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2ZTU7DMBCF3SJQs0ZIyRIkFrBjy44jcAi4Jz9bkOBEOKIjvQ5v4p84CY38pCe3jl07mS8eJ90553auqipNF+6Xm6nc7l1VlSLG5Yv3K6mvXFbNpUf3l6Uv729SX7msmksPrgx/1hpbuUzTqffZ0pP4B8rlUnNorbGVy7Aqi+n68P70bsAxuV7aLcHlk3JJhRjaeG/35Qa+p/7OVMI5oY9V/T60MbwUlxZ/N9633pfeVxONLdJ89efdn6/kE/nO2s4pGVfigfE75nxmcfnm/e5sPktwmcPfvffdyHFzJPck5pNmgXlYwtjhvbMGYW6X626tnzlcPoN7/Uf+rLUPcwWWc0r2ESxHY5zk3lkLlyJ59zmU21O57Fk8B4tK8mfFrMRvLsml8Ni6w7icgFmc1salPMsP7TtTubx2nMtS6uMme6remk18TrE+p2jOuAuPcm6Yp9m+a61c6vWSnbNco02kNZex/WItTOKenx3Hz1tVn8KnjrvO/6Hv+vl+O1C27vC5BvO0ftZZM5e4Xlr7TLlOMe9EWf7DckydPsb2HFZbnRdT+BwbdxybzQOPtUYbi8lYLmUPUKpOv6MqadmrsJgyLmOsn+1jeJM+uVzi/wON+j1su1PtNZ9WOZZLNjZeK30++pqy+lQuZSw2r9y6qV2Sy478FuMhxKBmjc2v21v/P4BxZOer3/9IW7ynWlLmio1dKnax74kYW9I31C7EJdsD4/oQmjvrq++5KbnEmIS4RHb0GtwRyzzxuPTr3CHH1jmHylyxsdH6WCie2C/2PRFjS/qG2llr7dh7TfoN9bWuRQ6XQ+WYOl3uSB82H8upfOYqlUurTahfaA5jcvYSeZytk1j/A6riiYiwLgAA
+  </data>
+ </layer>
+ <layer name="Collectibles" width="166" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3Y6wqEIBCG4WTt/m95f0SsDI7n1VHeB6KQqBE/td3rAgBgPO+eA7Dkds+BM/1rfEufaz1fsj7Lte5IG/9ZuYy9x7tfu5U9WdZR0g/kzc5fqZr3r6z1hDV+tdvZn8/W6pFafz9Z79dKsVyO1ru/Wp43bybJ5l5SuQ/HUrtOPTNnl/+ByKYt4Xho1z1kLmtzOjPXsT5r3/g1bb7wjLFSe2gul6ncyftmCPcWOUdb28L6ezP5IcPFer7tLNLWzdY21ss1TsslAAAAgLQvi/ZFD7AuAAA=
+  </data>
+ </layer>
+ <layer name="Enemies" width="166" height="18">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAA4G8XoA0csC4AAA==
+  </data>
+ </layer>
+ <layer name="CheckPoints" width="166" height="18">
+  <properties>
+   <property name="Blocked" type="bool" value="false"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3WMQ0AAAjAMPBvGgN8HATSKti5CAAAAD7K3C4AAIAZTwsAdDwCAADALQW1DbHVsC4AAA==
+  </data>
+ </layer>
+</map>
